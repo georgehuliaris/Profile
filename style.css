@@ -18,6 +18,8 @@ span {
   perspective: 1000px;
 }
 
+
+
 @keyframes shake {
     10%, 90% {
       transform: translate3d(-1px, 0, 0);
@@ -187,6 +189,7 @@ hr.dashed {
 /* This is for watch */
 
 @media (max-device-width: 42mm) and (min-device-width: 38mm) {
+    text-align center
 }
 /* This is for phones */
 
