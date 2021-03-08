@@ -6,6 +6,11 @@ body {
     background-position: center;
 }
 
+img {
+    image-rendering: optimizeQuality;
+    size= 200px 200px
+}
+
 h1 {
     font-style: inherit;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
