@@ -1,10 +1,10 @@
 body {
     background-image: url("./watercolor6.jpg");
-    background-color: #ccfcfd;
+    background-color: #e4fbfc;
     background-attachment: fixed;
     background-position: center;
-   }
-   
+}
+
 h1 {
     font-style: inherit;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,8 +47,15 @@ ul {
     text-align: center;
 }
 
+hr.solid {
+    border-style: dashed;
+    border-color: grey
+} 
+
 hr.dashed {
     border-top: 1px dashed #bbb;
+    border-style: dashed;
+    border-color: gray;
   }
 
 @keyframes color-change {
