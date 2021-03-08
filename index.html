@@ -13,6 +13,26 @@
         <hr class="solid">
         <img src="./picofme.png"
     </h1>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#Information">Information</a>
+        <a href="#Profile">Profile</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Hobbies">Hobbies</a>
+        <a href="#Strengths">Strengths</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()">X</span>
+      
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+        
+      </div>
+
     <h2>
         Information
     </h2>
@@ -32,28 +52,31 @@
     <hr class="dashed">
 
     <h2>
-        Education
+        <a id="Education">Education</a>
+        
     </h2>
     
     <hr class="dashed">
 
     <h2>
-        Skills
+        <a id="Skills">Skills</a>
     </h2>
 
     <hr class="dashed">
 
     <h2>
-        Hobbies
+        <a id="Hobbies">Hobbies</a>
     </h2>
 
     <hr class="dashed">
 
     <h2>
-        Strengths
+        <a id="Strengths">Strengths</a>
     </h2>
 
     <hr class="dashed">
+
+<script src="./app.js"></script>
 
 </body>
 </html>
