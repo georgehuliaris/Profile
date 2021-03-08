@@ -31,7 +31,9 @@ p {
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     font-size: 30px;
     text-size-adjust: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,7 +41,7 @@ ul {
 }
 
 hr.dashed {
-    border-top: 3px dashed #bbb;
+    border-top: 2px dashed #bbb;
   }
 
 @keyframes color-change {
