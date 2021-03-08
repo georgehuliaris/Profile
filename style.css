@@ -2,6 +2,7 @@ body {
     background-image: url("./watercolor6.jpg");
     background-color: #e4fbfc;
     background-attachment: fixed;
+    background-size: cover;
     background-position: center;
 }
 
@@ -49,6 +50,7 @@ ul {
 
 hr.solid {
     border-style: dashed;
+    border-width: 1px;
     border-color: grey
 } 
 
@@ -56,7 +58,9 @@ hr.dashed {
     border-top: 1px dashed #bbb;
     border-style: dashed;
     border-color: gray;
-  }
+}
+
+
 
 @keyframes color-change {
     0% { color: black;}
@@ -66,9 +70,9 @@ hr.dashed {
     50% { color: darkred;}
     75% { color: darkred;}
     100% { color: black; }
-  }
+}
 
-  @keyframes link-color-change {
+@keyframes link-color-change {
     0% { color:blue;}
     15% { color: blue;}
     25% { color: darkblue;}
@@ -76,7 +80,7 @@ hr.dashed {
     50% { color: darkblue;}
     75% { color: blue;}
     100% { color: blue; }
-  }
+}
 /* This is for watch */
 
   @media 
