@@ -14,23 +14,23 @@ span {
 }
 
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: rgb(178, 243, 248); 
+  overflow-x: hidden;
+  padding-top: 60px; 
+  transition: 1s; 
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #0a0707;
   display: block;
   transition: 0.3s;
 }
@@ -60,8 +60,8 @@ h1 {
   text-size-adjust: auto;
   text-decoration-line: underline;
   font-size: 80px;
-  animation: color-change 3s infinite;
-  text-shadow: 3px 3px rgb(170, 9, 9);
+  animation: link-color-change 5s infinite;
+  text-shadow: 1px 1px 1px 1px rgb(7, 5, 5);
 }
 
 h2 {
@@ -71,12 +71,7 @@ h2 {
   text-decoration-line: underline;
   text-size-adjust: auto;
   font-size: 45px;
-  animation: color-change 3s infinite;
-  text-shadow: 1px 1px rgb(170, 9, 9);
-}
-
-a.li {
-  animation: link-color-change 3s infinite;
+  animation: link-color-change 5s infinite;
   text-shadow: 1px 1px darkblue;
 }
 
@@ -136,25 +131,25 @@ hr.dashed {
 
 @keyframes link-color-change {
   0% {
-    color: blue;
-  }
-  15% {
-    color: blue;
-  }
-  25% {
-    color: darkblue;
-  }
-  40% {
     color: black;
   }
+  15% {
+    color: black;
+  }
+  25% {
+    color: rgb(90, 4, 90);
+  }
+  40% {
+    color: rgb(90, 4, 90);;
+  }
   50% {
-    color: darkblue;
+    color: rgb(90, 4, 90);;
   }
   75% {
-    color: blue;
+    color: rgb(90, 4, 90);;
   }
   100% {
-    color: blue;
+    color: black;
   }
 }
 /* This is for watch */
