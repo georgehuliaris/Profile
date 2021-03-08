@@ -1,3 +1,10 @@
+body {
+    background-image: url("./watercolor6.jpg");
+    background-color: #ccfcfd;
+    background-attachment: fixed;
+    background-position: center;
+   }
+   
 h1 {
     font-style: inherit;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +48,7 @@ ul {
 }
 
 hr.dashed {
-    border-top: 2px dashed #bbb;
+    border-top: 1px dashed #bbb;
   }
 
 @keyframes color-change {
