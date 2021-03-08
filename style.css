@@ -1,0 +1,77 @@
+h1 {
+    font-style: inherit;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 149px;
+    animation: color-change 1s infinite;
+    text-shadow: 3px 3px rgb(170, 9, 9);
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 65px;
+    animation: color-change 1s infinite;
+}
+
+p {
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+
+@keyframes color-change {
+    0% { color: black;}
+    15% { color: darkred;}
+    25% { color: rgb(170, 9, 9);}
+    40% { color: darkred;}
+    50% { color: black;}
+    75% { color: black;}
+    100% { color: black; }
+  }
+/* This is for watch */
+
+  @media 
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm) { 
+
+}
+/* This is for phones */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* This is for tablets */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* This is for laptops */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
