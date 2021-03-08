@@ -2,9 +2,10 @@ h1 {
     font-style: inherit;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    text-size-adjust: auto;
     text-decoration-line: underline;
     font-size: 80px;
-    animation: color-change 1s infinite;
+    animation: color-change 3s infinite;
     text-shadow: 3px 3px rgb(170, 9, 9);
 }
 
@@ -12,22 +13,27 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration-line: underline;
+    text-size-adjust: auto;
     font-size: 45px;
-    animation: color-change 1s infinite;
+    animation: color-change 3s infinite;
+    text-shadow: 1px 1px rgb(170, 9, 9);
 }
 
 a {
-    animation: link-color-change 1s infinite;
+    animation: link-color-change 3s infinite;
+    text-shadow: 1px 1px darkblue;
 }
 
 p {
     font-size: 30px;
+    text-size-adjust: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
     list-style-type:none;
     font-size: 30px;
+    text-size-adjust: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -39,21 +45,21 @@ hr.dashed {
 @keyframes color-change {
     0% { color: black;}
     15% { color: darkred;}
-    25% { color: rgb(170, 9, 9);}
-    40% { color: darkred;}
-    50% { color: black;}
-    75% { color: black;}
+    25% { color: darkred;}
+    40% { color: rgb(170, 9, 9);}
+    50% { color: darkred;}
+    75% { color: darkred;}
     100% { color: black; }
   }
 
   @keyframes link-color-change {
-    0% { color: black;}
-    15% { color: darkblue;}
-    25% { color: blue;}
-    40% { color: blue;}
-    50% { color: blue;}
-    75% { color: darkblue;}
-    100% { color: black; }
+    0% { color:blue;}
+    15% { color: blue;}
+    25% { color: darkblue;}
+    40% { color: black;}
+    50% { color: darkblue;}
+    75% { color: blue;}
+    100% { color: blue; }
   }
 /* This is for watch */
 
