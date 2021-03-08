@@ -6,6 +6,13 @@ body {
   background-position: center;
 }
 
+span{
+    position:absolute;
+    left:0;
+    top:0;
+    max: width 150px;px;
+    }
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -39,6 +46,8 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+
+ 
 
   #main {
     transition: margin-left .5s;
