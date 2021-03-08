@@ -3,7 +3,7 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration-line: underline;
-    font-size: 100px;
+    font-size: 80px;
     animation: color-change 1s infinite;
     text-shadow: 3px 3px rgb(170, 9, 9);
 }
@@ -12,23 +12,24 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration-line: underline;
-    font-size: 55px;
+    font-size: 45px;
     animation: color-change 1s infinite;
 }
 
+a {
+    animation: link-color-change 1s infinite;
+}
+
 p {
-    font-size: 40px;
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
-    font-size: 40px;
+    list-style-type:none;
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-img {
-    
 }
 
 hr.dashed {
@@ -44,6 +45,16 @@ hr.dashed {
     75% { color: black;}
     100% { color: black; }
   }
+
+  @keyframes link-color-change {
+    0% { color: black;}
+    15% { color: darkblue;}
+    25% { color: blue;}
+    40% { color: blue;}
+    50% { color: blue;}
+    75% { color: darkblue;}
+    100% { color: black; }
+  }
 /* This is for watch */
 
   @media 
@@ -54,8 +65,8 @@ hr.dashed {
 /* This is for phones */
 
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-device-width: 420px) 
+  and (max-device-width: 750px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
 }
