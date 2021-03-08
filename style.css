@@ -3,7 +3,7 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration-line: underline;
-    font-size: 149px;
+    font-size: 100px;
     animation: color-change 1s infinite;
     text-shadow: 3px 3px rgb(170, 9, 9);
 }
@@ -12,17 +12,17 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration-line: underline;
-    font-size: 65px;
+    font-size: 55px;
     animation: color-change 1s infinite;
 }
 
 p {
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
