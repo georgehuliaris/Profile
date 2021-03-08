@@ -1,114 +1,130 @@
 body {
-    background-image: url("./watercolor6.jpg");
-    background-color: #e4fbfc;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+  background-image: url("./watercolor6.jpg");
+  background-color: #e4fbfc;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-    font-style: inherit;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    text-size-adjust: auto;
-    text-decoration-line: underline;
-    font-size: 80px;
-    animation: color-change 3s infinite;
-    text-shadow: 3px 3px rgb(170, 9, 9);
+  font-style: inherit;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-size-adjust: auto;
+  text-decoration-line: underline;
+  font-size: 80px;
+  animation: color-change 3s infinite;
+  text-shadow: 3px 3px rgb(170, 9, 9);
 }
 
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    text-decoration-line: underline;
-    text-size-adjust: auto;
-    font-size: 45px;
-    animation: color-change 3s infinite;
-    text-shadow: 1px 1px rgb(170, 9, 9);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-decoration-line: underline;
+  text-size-adjust: auto;
+  font-size: 45px;
+  animation: color-change 3s infinite;
+  text-shadow: 1px 1px rgb(170, 9, 9);
 }
 
 a {
-    animation: link-color-change 3s infinite;
-    text-shadow: 1px 1px darkblue;
+  animation: link-color-change 3s infinite;
+  text-shadow: 1px 1px darkblue;
 }
 
 p {
-    font-size: 30px;
-    text-size-adjust: auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-size-adjust: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    text-size-adjust: auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  text-size-adjust: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 hr.solid {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: grey
-} 
-
-hr.dashed {
-    border-top: 1px dashed #bbb;
-    border-style: dashed;
-    border-color: gray;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: grey;
 }
 
-
+hr.dashed {
+  border-top: 1px dashed;
+  border-style: dashed;
+  border-color: gray;
+}
 
 @keyframes color-change {
-    0% { color: black;}
-    15% { color: darkred;}
-    25% { color: darkred;}
-    40% { color: rgb(170, 9, 9);}
-    50% { color: darkred;}
-    75% { color: darkred;}
-    100% { color: black; }
+  0% {
+    color: black;
+  }
+  15% {
+    color: darkred;
+  }
+  25% {
+    color: darkred;
+  }
+  40% {
+    color: rgb(170, 9, 9);
+  }
+  50% {
+    color: darkred;
+  }
+  75% {
+    color: darkred;
+  }
+  100% {
+    color: black;
+  }
 }
 
 @keyframes link-color-change {
-    0% { color:blue;}
-    15% { color: blue;}
-    25% { color: darkblue;}
-    40% { color: black;}
-    50% { color: darkblue;}
-    75% { color: blue;}
-    100% { color: blue; }
+  0% {
+    color: blue;
+  }
+  15% {
+    color: blue;
+  }
+  25% {
+    color: darkblue;
+  }
+  40% {
+    color: black;
+  }
+  50% {
+    color: darkblue;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: blue;
+  }
 }
 /* This is for watch */
 
-  @media 
-  (max-device-width: 42mm)
-  and (min-device-width: 38mm) { 
-
+@media (max-device-width: 42mm) and (min-device-width: 38mm) {
 }
 /* This is for phones */
 
-@media only screen 
-  and (min-device-width: 420px) 
-  and (max-device-width: 750px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+@media only screen and (min-device-width: 420px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
 }
 
 /* This is for tablets */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 /* This is for laptops */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 }
