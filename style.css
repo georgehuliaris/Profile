@@ -26,11 +26,12 @@ body {
 
 .container {
   width: 90%;
-  display: flex;
+  align-content: center;
+  display: flexbox;
   margin: 1 auto;
   padding: 1px;
   grid-template-rows: auto;
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
 .row {
@@ -39,8 +40,9 @@ body {
   }
   
 .column {
-    flex: 25%;
-    padding: 20px;
+    flex: 32%;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
 .card p {
@@ -51,15 +53,12 @@ body {
 /* format for cards */
 .card {
   display: flexbox;
-  align-self: auto
-  height; fit-content;
-  box-shadow: 0 2px 1px rgb(111, 111, 145);
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 5px;
-  text-align: center;
+  border: 1px 1px darkgray;
+  align-self: auto; 
+  place-content: inherit;
   flex: 0 1 24%;
 }
+
 /* mostly foot nav */
 span {
   position: fixed;
