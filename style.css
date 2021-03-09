@@ -8,8 +8,8 @@ body {
 
 span {
   position: fixed;
-  left: 30px;
-  top: 0;
+  left: 100px;
+  top: 50px;
   max-width: 75px;
   cursor: grab;
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -17,6 +17,8 @@ span {
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
+
 
 
 
@@ -38,6 +40,18 @@ span {
     }
   }
 
+span:hover {
+    color: #fdd1ad;
+    text-shadow: 4px 4px 4px #f5aa6d;
+    transition: 1s;
+}
+
+a:hover {
+    color: #fdd1ad;
+    text-shadow: 1px 1px 1px rgb(90, 4, 90);
+    transition: 1s;
+}
+
 .sidenav {
   height: 100%; 
   width: 0; 
@@ -57,11 +71,12 @@ span {
   font-size: 25px;
   color: #0a0707;
   display: block;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #fdd1ad;
+  text-shadow: 1px 1px 1px rgb(90, 4, 90);
 }
 
 .sidenav .closebtn {
@@ -86,7 +101,7 @@ h1 {
   text-decoration-line: underline;
   font-size: 80px;
   animation: link-color-change 5s infinite;
-  text-shadow: 1px 1px 1px 1px rgb(7, 5, 5);
+  text-shadow: 1px 1px 1px 1px rgb(90, 4, 90);
 }
 
 h2 {
@@ -97,7 +112,7 @@ h2 {
   text-size-adjust: auto;
   font-size: 45px;
   animation: link-color-change 5s infinite;
-  text-shadow: 1px 1px darkblue;
+  text-shadow: 1px 1px rgb(90, 4, 90);
 }
 
 p {
@@ -121,15 +136,15 @@ ul {
 hr.solid {
   border-style: dashed;
   border-width: 1px;
-  border-color: grey;
+  border-color: rgb(209, 207, 207);
 }
 
 hr.dashed {
   border-top: 1px dashed;
   border-style: dashed;
-  border-color: gray;
+  border-color: rgb(209, 207, 207);
 }
-
+/* didnt end up using this one, but the effect was cool! */
 @keyframes color-change {
   0% {
     color: black;
@@ -165,13 +180,13 @@ hr.dashed {
     color: rgb(90, 4, 90);
   }
   40% {
-    color: rgb(90, 4, 90);;
+    color: rgb(90, 4, 90);
   }
   50% {
-    color: rgb(90, 4, 90);;
+    color: rgb(90, 4, 90);
   }
   75% {
-    color: rgb(90, 4, 90);;
+    color: rgb(90, 4, 90);
   }
   100% {
     color: black;
@@ -214,5 +229,4 @@ img {
 
 /* This is for laptops */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-
 }
