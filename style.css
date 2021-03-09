@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  align-content: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +23,7 @@ body {
 .card-container {
   display: flex;
   flex-flow: wrap;
+  align-content: center;
 }
 
 .container {
@@ -40,9 +42,10 @@ body {
   }
   
 .column {
-    flex: 32%;
+    flex: 33%;
     padding-left: 60px;
     padding-right: 60px;
+    align-content: center;
   }
 
 .card p {
@@ -148,6 +151,7 @@ a:hover {
 #main {
   transition: margin-left 0.5s;
   padding: 1px;
+  align-content: center;
 }
 
 h1 {
@@ -228,7 +232,7 @@ img {
     }
   }
   
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 800px) {
     .row {
       flex-direction: column;
     }
