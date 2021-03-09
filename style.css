@@ -27,13 +27,13 @@ body {
 }
 
 .container {
-  width: 90%;
   align-content: center;
-  display: flexbox;
+  display: flex;
   margin: 1 auto;
   padding: 1px;
-  grid-template-rows: auto;
+  grid-template-rows: inherit;
   grid-gap: 30px;
+  margin-bottom: 60px;
 }
 
 .row {
@@ -55,11 +55,11 @@ body {
 
 /* format for cards */
 .card {
-  display: flexbox;
   border: 1px 1px darkgray;
+  padding: 5px;
   align-self: auto; 
   place-content: inherit;
-  flex: 0 1 24%;
+  flex: 0 1 25%;
 }
 
 /* mostly foot nav */
@@ -179,11 +179,11 @@ h2 {
 /* most font */
 p {
   font-size: 20px;
-  text-align: center;
   text-size-adjust: auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 /* seperator for name */
 hr.solid {
   border-style: dashed;
