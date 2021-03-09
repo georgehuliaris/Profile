@@ -38,7 +38,6 @@ body {
     flex-wrap: wrap;
   }
   
-  /* Create four equal columns */
 .column {
     flex: 25%;
     padding: 20px;
@@ -49,18 +48,19 @@ body {
     line-height: 1.4;
 }
 
+/* format for cards */
 .card {
   display: flexbox;
-  height: fit-content;
+  align-self: auto
+  height; fit-content;
   box-shadow: 0 2px 1px rgb(111, 111, 145);
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 5px;
   text-align: center;
-  background-color: #f5f5e9;
   flex: 0 1 24%;
 }
-
+/* mostly foot nav */
 span {
   position: fixed;
   left: 100px;
@@ -71,6 +71,8 @@ span {
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
+/* animation to shake foot navigation */
 
 @keyframes shake {
   10%,
@@ -95,18 +97,19 @@ span {
   }
 }
 
+/* color changing hover */
 span:hover {
   color: #fdd1ad;
   text-shadow: 4px 4px 4px #f5aa6d;
   transition: 1s;
 }
-
+/* color changing hover for links*/
 a:hover {
   color: #fdd1ad;
   text-shadow: 1px 1px 1px rgb(90, 4, 90);
   transition: 1s;
 }
-
+/* side navigation settings */
 .sidenav {
   height: 100%;
   width: 0;
@@ -120,6 +123,7 @@ a:hover {
   transition: 1s;
 }
 
+/* sidenavigation for links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -128,12 +132,12 @@ a:hover {
   display: block;
   transition: 1s;
 }
-
+/* sidenav links on mouseoover/hover */
 .sidenav a:hover {
   color: #fdd1ad;
   text-shadow: 1px 1px 1px rgb(90, 4, 90);
 }
-
+/* button to close sidenav */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -169,7 +173,7 @@ h2 {
   animation: link-color-change 5s infinite;
   text-shadow: 1px 1px rgb(90, 4, 90);
 }
-
+/* most font */
 p {
   font-size: 20px;
   text-align: center;
@@ -177,28 +181,13 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  text-size-adjust: auto;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
+/* seperator for name */
 hr.solid {
   border-style: dashed;
   border-width: 1px;
   border-color: rgb(209, 207, 207);
 }
-/* took these out */
-hr.dashed {
-  border-top: 1px dashed;
-  border-style: dashed;
-  border-color: rgb(209, 207, 207);
-}
+/* animation for h tag color change */
 
 @keyframes link-color-change {
   0% {
@@ -240,7 +229,7 @@ img {
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 720px) {
     .row {
       flex-direction: column;
     }
