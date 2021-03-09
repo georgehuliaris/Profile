@@ -179,7 +179,7 @@ hr.dashed {
 }
 
 .img-box{
-    width: 125px;
+    width: 0px;
     border: 4px solid #333;
 }
 .img-box img{
@@ -189,7 +189,6 @@ hr.dashed {
 /* This is for watch */
 
 @media (max-device-width: 42mm) and (min-device-width: 38mm) {
-    text-align center
 }
 /* This is for phones */
 
