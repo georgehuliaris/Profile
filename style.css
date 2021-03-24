@@ -3,7 +3,6 @@
   align-content: center;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .header {
@@ -20,46 +19,18 @@ body {
   background-position: center;
 }
 
-.card-container {
-  display: flex;
-  flex-flow: wrap;
-  align-content: center;
-}
-
 .container {
-  align-content: center;
-  display: flex;
-  margin: 1 auto;
-  padding: 1px;
-  grid-template-rows: inherit;
-  grid-gap: 30px;
+  flex-wrap: wrap;
+  padding: 10px 10px;
   margin-bottom: 60px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-.column {
-    flex: 33%;
-    padding-left: 60px;
-    padding-right: 60px;
-    align-content: center;
-  }
-
-.card p {
-    flex: 1;
-    line-height: 1.4;
+  justify-content: center;
 }
 
 /* format for cards */
 .card {
-  border: 1px 1px darkgray;
+  text-align: center;
   padding: 5px;
-  align-self: auto; 
-  place-content: inherit;
-  flex: 0 1 25%;
+  align-content: center;
 }
 
 /* mostly foot nav */
@@ -73,6 +44,7 @@ span {
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
 
 /* animation to shake foot navigation */
 
@@ -179,7 +151,6 @@ h2 {
 /* most font */
 p {
   font-size: 20px;
-  text-size-adjust: auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -227,13 +198,13 @@ img {
   padding: 5px;
 }
 @media screen and (max-width: 992px) {
-    .column {
-      flex: 50%;
-    }
+  .column {
+    flex: 50%;
   }
-  
-  @media screen and (max-width: 800px) {
-    .row {
-      flex-direction: column;
-    }
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: row;
   }
+}
