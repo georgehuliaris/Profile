@@ -20,10 +20,13 @@ body {
 }
 
 .container {
+  justify-content: center;
   flex-wrap: wrap;
   padding: 10px 10px;
   margin-bottom: 60px;
   justify-content: center;
+  max-width: 80%;
+  padding-left: 20%;
 }
 
 /* format for cards */
@@ -85,6 +88,7 @@ a:hover {
 }
 /* side navigation settings */
 .sidenav {
+  border-radius: 8px;
   height: 100%;
   width: 0;
   position: fixed;
